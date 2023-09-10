@@ -1,0 +1,28 @@
+.deco-line{
+    width: 100%;
+    top: 100%;
+    border-bottom: 1px solid #fff;
+}
+@media(max-width:992px){
+    .deco-line{
+        top: 69px;
+        box-shadow:0px 3px 5px black;
+    }
+}
+
+.navItem li{
+    margin: 0 .75rem;
+}
+.navOther li{
+    margin: 0 .25rem;
+}
+
+.navItem , .navOther{
+    a{
+        color: #fff;
+        &:hover{
+            color: $babypink;
+            opacity: 0.7;
+        }
+    }
+}

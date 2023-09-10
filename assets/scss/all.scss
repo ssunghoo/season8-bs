@@ -1,0 +1,14 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import './utils/variables';
+@import "../../node_modules/bootstrap";
+
+//layout部分
+@import './layout/font';
+@import './layout/allcolor';
+@import './layout/layout';
+@import './layout/nav';
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+//pages部分
+@import './pages/index.scss';

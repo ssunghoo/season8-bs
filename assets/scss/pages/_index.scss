@@ -1,0 +1,137 @@
+.index-title {
+  font-size: 100px;
+}
+
+.letter-spacing- {
+  &1{
+    letter-spacing: 8px;
+  }
+  &2{
+    letter-spacing: 16px;
+  }
+  &3{
+    letter-spacing: 24px;
+  }
+  &6{
+    letter-spacing: 48px;
+    overflow: hidden;
+  }
+}
+
+.index-{
+  &bg{
+    background-image: url(../assets/images/home_background.png);
+    background-size: cover;
+    margin-bottom: -104px;
+  }
+  &bg2{
+    background-image: url(../assets/images/home_background.png);
+    background-size: cover;
+    padding-top: 104px;
+  }
+  &bg3{
+    background: radial-gradient(50% 50% at 50% 50%,#28085C 0%,#000 100%);
+  }
+  &bg4{
+    background: radial-gradient(50% 50% at 50% 50%, #000 0%, #28085C 100%);
+  }
+  &bg5{
+    background: #1F0F39;
+  }
+}
+
+@media(max-width:992px){
+  .index-bg{
+    background: linear-gradient(0deg, #11002d 0%, #7000ff 100%);
+    background-repeat: no-repeat;
+    
+  }
+}
+.border-md-end{
+  border-right: 1px solid white;
+}
+
+@media(max-width:992px){
+  .border-md-end{
+    border-right: none;
+    
+  }
+}
+
+// .home-bg::before{
+//   background: url(../assets/images/home_background.png);
+//   content: "";
+//   background-size: cover;
+//   position: absolute;
+//   z-index: -3;
+//   width: 100%;
+//   height: 100%;
+// }
+
+//旋轉用
+.img-circle{
+  width: 196px;
+  height: 196px;
+  animation-name: rotate; //對應@keyframes的”rotate“
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; 
+  animation-fill-mode: both;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg) }
+  100% { transform: rotate(360deg) }
+}
+
+.line-bottom::before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  left: 0px;
+  margin-top: 8rem;
+  background: #fff;
+}
+
+
+//Swiper scrollbar 捲軸樣式設定
+
+.bg-primary-dark {
+  background-color: #380C7E;
+}
+
+.shareCard {
+  padding: 40px;
+  height: 350px;
+}
+
+.swiper {
+  overflow: initial;
+}
+
+//滾動條可拖曳區塊的顏色
+.swiper-scrollbar-drag {
+  background-color: #ffffff;
+}
+
+//整個滾動條的背景顏色
+.swiper-scrollbar {
+  background-color: #ffffff20;
+}
+
+
+//hover 遮罩範例
+.aiintro-card-content {
+  background-color: #000;
+  transition: 0.5s;
+  &:hover {
+    background-color: #00000080;
+  }
+}
+
+.number {
+  font-size: 400px;
+}
+

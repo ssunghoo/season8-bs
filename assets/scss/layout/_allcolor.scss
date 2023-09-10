@@ -1,0 +1,13 @@
+$primarydark: #11002d;
+$purplelight: #6e01f8;
+$purpledark: #380c7e;
+$purpledeep: #1f0f39;
+$babypink: #e9e2f3;
+
+.radial-bg{
+    background: radial-gradient(circle, #28085c 0%, #000000 100%);
+}
+
+.linear-bg{
+    background: linear-gradient(0deg, #11002d 0%, #7000ff 100%);
+}
